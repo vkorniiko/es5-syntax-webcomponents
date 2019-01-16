@@ -1,0 +1,98 @@
+/**
+* Author: Volodymyr Korniyko
+* File: customNumber.css
+* Date: 4 Jan 2019
+*/
+:host {
+	font-family: inherit;
+	margin: 2px;
+	display: block;
+	width: 150px;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	outline: none;
+	text-align: center;
+	align-content: center;
+	background-color: var(--background-color);
+	position: relative;
+
+	--background-color: #f0fff2;
+	--background-focus-color: #fff;
+	--border-color: #ccc;
+	--button-color: #000;
+}
+
+.textHolder{
+	border-spacing:0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.value {
+	background-color: transparent;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	outline: none;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.valueHolder:focus-within{
+	background-color: var(--background-focus-color);
+}
+
+td {
+	padding:0px;
+}
+
+button {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	cursor: pointer;
+	border: 0px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	text-align: center;
+	align-content: center;
+	color: var(--button-color);
+	background-color: var(--background-focus-color);
+}
+
+button:active{
+	background-color: var(--border-color);
+}
+
+.addButtonHolder{
+	width: 27px;
+	position: relative;
+}
+
+.addButton {
+	border-left: 1px solid var(--border-color);
+}
+
+.subtractButtonHolder{
+	width: 27px;
+	position: relative;
+}
+
+.subtractButton {
+	border-right: 1px solid var(--border-color);
+}

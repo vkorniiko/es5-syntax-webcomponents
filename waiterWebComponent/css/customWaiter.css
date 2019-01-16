@@ -1,0 +1,60 @@
+/**
+* Author: Volodymyr Korniyko
+* File: customWaiter.css
+* Date: 6 Jan 2019
+*/
+
+:host{
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 10px;
+	--background-color: #2b333ecc;
+	--color: #fff;
+	--top-color: #57ee00; 
+	--bottom-color: #fbff00; 
+}
+
+.waiterHolder {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: var(--background-color);
+}
+
+.valueHolder{
+	display: grid;
+	text-align: center;
+	align-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.value { 
+	color: var(--color);
+}
+
+.wheel {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30px;
+	height: 30px;
+	margin: -25px 0px 0px -25px;
+	border: 10px solid;
+	border-radius: 50%;
+	border-top-color: var(--top-color);
+	border-bottom-color: var(--bottom-color);
+	border-left-color: transparent;
+	border-right-color: transparent;
+	animation: spin 3s infinite ease-in-out;
+}
+
+@keyframes spin {
+	0%{ transform: rotate(-720deg); }
+	50%{ transform: rotate(720deg); }
+	100%{ transform: rotate(-720deg); }
+}

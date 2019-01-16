@@ -1,0 +1,18 @@
+/**
+* Author: Volodymyr Korniyko
+* File: styles.css
+* Date: Sun, 30 Dec 2018 18:45:24 GMT
+*/
+
+
+#mySelect{
+	display: inline-block;
+}
+
+custom-select{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 120px;
+	height: 27px;
+	display: block;
+}

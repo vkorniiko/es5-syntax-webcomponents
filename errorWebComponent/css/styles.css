@@ -1,0 +1,23 @@
+/**
+* Author: Volodymyr Korniyko
+* File: styles.css
+* Date: 9 Jan 2019
+*/
+
+custom-error{
+
+}
+
+
+.errorHolder{
+	display: inline-block;
+	border: 1px solid #999;
+}
+
+.error{
+	border: 1px solid red;
+}
+#text{
+	border: 0px;
+	outline: none;
+}
