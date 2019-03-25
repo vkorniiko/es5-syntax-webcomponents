@@ -10,16 +10,16 @@
     <button onclick="addCounter()">add</button>
     <button onclick="removeCounter()">remove</button>
 
-    <custom-badge value="setted" count="10" style="background-color:orangered; width: 100px;height: 100px;"></custom-badge>
+    <custom-badge value="setted" count="10" style="background-color:orangered; width: 100px; height: 100px;"></custom-badge>
     
-    <custom-badge value="link" count="10" style="background-color: orange">
+    <custom-badge value="link" count="10" style="background-color: orange;">
       <link slot="style" rel="stylesheet" href="css/customBadge.css"/>
     </custom-badge>
     
-    <custom-badge value="template" count="10" style="background-color: orange">
+    <custom-badge value="template" count="10" style="background-color: orange;">
       <div class="badgeHolder" slot="template">
-        <div class="value" style="color:0px"></div>
-        <div class="counter" style="border-radius: 0px; background-color: green"></div>
+        <div class="value" style="color:0;"></div>
+        <div class="counter" style="border-radius: 0; background-color: green;"></div>
       </div>
     </custom-badge>
     
@@ -31,23 +31,23 @@
           display: inline-block;
           margin: 5px 20px;
         }
-        
-        .badgeHolder{
+
+        .badgeHolder {
           position: relative;
         }
-        
+
         .value {
-          color:#fff;
+          color: #fff;
           padding: 3px 8px;
           font-weight: bold;
           font-size: 12px;
         }
-        
-        .counter{
+
+        .counter {
           position: absolute;
           top: -10px;
           left: -10px;
-          color:rgb(0, 0, 0);
+          color: rgb(0, 0, 0);
           font-size: 12px;
           border-radius: 20px;
           background-color: rgb(229, 255, 0);
@@ -59,15 +59,15 @@
           min-width: 15px;
           min-height: 10px;
         }
-        
+
         .invisible {
           opacity: 0;
         }
-        
+
         .bump {
           animation: bump 0.15s ease-in-out 0s 1;
         }
-        
+
         @keyframes bump {
           50% {
             top: -12px;
@@ -78,8 +78,5 @@
         }
       </style>
     </custom-badge>
-
-    <script src="js/customBadge.js" type="text/javascript"></script>
-    <script src="js/main.js" type="text/javascript"></script>
   </body>
 </html>
