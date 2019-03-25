@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>SwitchWebComponent</title>
+  </head>
+  <body>
+    <custom-switch checked="true"></custom-switch>
+    
+    <custom-switch checked="true" style="--background-color-switched: #fbff00">
+      <div class="switchHolder" slot="template">
+        <div class="switch">
+          <div class="tumbler" style="background-color: rgb(255, 0, 0)"></div>
+        </div>
+      </div>
+    </custom-switch>
+
+    <custom-switch checked="true">
+      <link slot="style" rel="stylesheet" href="css/customSwitch.css"/>
+    </custom-switch>
+
+    <script src="js/customSwitch.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>

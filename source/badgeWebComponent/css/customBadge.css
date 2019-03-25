@@ -1,0 +1,59 @@
+:host {
+  font-family: inherit;
+  border-radius: 3px;
+  display: block;
+  margin: 5px;
+  background-color: #000;
+
+  --color: #fff;
+  --counter-color: #fff;
+  --background-counter-color: #f00;
+  --background-counter-border-color: #fff;
+}
+
+.badgeHolder {
+  position: relative;
+}
+
+.value {
+  color: var(--color);
+  padding: 3px 8px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.counter {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  color: var(--counter-color);
+  font-size: 12px;
+  font-weight: normal;
+  border-radius: 20px;
+  background-color: var(--background-counter-color);
+  border: 2px solid var(--background-counter-border-color);
+  text-align: center;
+  align-content: center;
+  display: grid;
+  padding: 2px;
+  min-width: 15px;
+  min-height: 10px;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.bump {
+  animation: bump 0.15s ease-in-out 0s 1;
+}
+
+@keyframes bump {
+  50% {
+    top: -12px;
+    right: -12px;
+    padding: 4px;
+    font-size: 14px;
+  }
+}
