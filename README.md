@@ -6,23 +6,37 @@ Web components created using ES5 syntax.
 
 ## Setup
 
-Clone the repository and open the [index.html](index.html) file in browser to view demonstration:
+Clone the repository:
 
 ```bash
 $ git clone https://gitlab.com/vkorniyko/es5-syntax-webcomponents.git
-$ cd es5-syntax-webcomponents
+$ cd es5-syntax-webcomponents/source
 ```
+
+Install the dependensies:
+
+```bash
+$ npm i
+```
+
+Perform linting:
+
+```bash
+$ npm run build
+```
+
+Open the [index.html](source/index.html) file in browser to view demonstration.
 
 ## Web components
 
-* [CustomBadge](badgeWebComponent/js/customBadge.js)
-* [CustomButton](buttonWebComponent/js/customButton.js)
-* [CustomError](errorWebComponent/js/customError.js)
-* [CustomNumber](numberWebComponent/js/customNumber.js)
-* [CustomSelect](selectWebComponent/js/customSelect.js)
-* [CustomSwitch](switchWebComponent/js/customSwitch.js)
-* [CustomText](textWebComponent/js/customText.js)
-* [CustomWaiter](waiterWebComponent/js/customWaiter.js)
+* [CustomBadge](source/badgeWebComponent/js/customBadge.js)
+* [CustomButton](source/buttonWebComponent/js/customButton.js)
+* [CustomError](source/errorWebComponent/js/customError.js)
+* [CustomNumber](source/numberWebComponent/js/customNumber.js)
+* [CustomSelect](source/selectWebComponent/js/customSelect.js)
+* [CustomSwitch](source/switchWebComponent/js/customSwitch.js)
+* [CustomText](source/textWebComponent/js/customText.js)
+* [CustomWaiter](source/waiterWebComponent/js/customWaiter.js)
 
 ## License
 
