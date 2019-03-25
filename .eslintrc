@@ -1,7 +1,6 @@
 {
   "env": {
     "qunit": true,
-    "node": true,
     "browser": true,
     "es6": true
   },
@@ -27,7 +26,7 @@
     "no-magic-numbers": ["error", { "ignore": [-1,0,1], "ignoreArrayIndexes": true, 
       "detectObjects": false }],
     "eol-last": ["error", "always"],
-    "strict": ["error", "safe"],
+    "strict": ["error", "global"],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "array-element-newline": "off",
     "object-curly-spacing": "off",
