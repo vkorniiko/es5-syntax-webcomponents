@@ -1,0 +1,38 @@
+{
+  "env": {
+    "qunit": true,
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+
+    }
+  },
+
+  "extends": "eslint:recommended",
+
+  "rules": {
+    "semi": "error",
+    "quotes": ["error", "double"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "unix"],
+    "comma-dangle": ["error", "never"],
+    "no-cond-assign": ["error", "always"],
+    "padded-blocks": ["error", "never"],
+    "max-statements": ["error", {"max": 20}],
+    "max-len": ["error", 80],
+    "no-magic-numbers": ["error", { "ignore": [-1,0,1], "ignoreArrayIndexes": true, 
+      "detectObjects": false }],
+    "eol-last": ["error", "always"],
+    "strict": ["error", "safe"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "array-element-newline": "off",
+    "object-curly-spacing": "off",
+    "sort-vars": "off",
+    "function-paren-newline": "off",
+    "no-unused-vars": ["error", { "args": "none" }]
+  }
+}

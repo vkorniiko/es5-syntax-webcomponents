@@ -1,0 +1,8 @@
+{
+  "extends": "stylelint-config-recommended",
+  "rules": {
+    "selector-type-no-unknown": [ true, { "ignore": ["custom-elements"] }],
+    "indentation": 2,
+    "no-empty-source": null
+  }
+}

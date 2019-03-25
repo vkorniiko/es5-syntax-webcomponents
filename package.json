@@ -1,0 +1,34 @@
+{
+  "name": "es5-syntax-webcomponents",
+  "version": "0.0.2",
+  "description": "Web components created using ES5 syntax.",
+  "scripts": {
+    "build": "node ./node_modules/grunt/bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/vkorniyko/es5-syntax-webcomponents.git"
+  },
+  "author": "Volodymyr Korniyko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/vkorniyko/es5-syntax-webcomponents/issues"
+  },
+  "homepage": "https://gitlab.com/vkorniyko/es5-syntax-webcomponents#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-stylelint": "^0.10.1",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "main": "",
+  "dependencies": {},
+  "keywords": [
+    "webcomponents",
+    "javascript",
+    "es5",
+    "web-ui"
+  ]
+}
