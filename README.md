@@ -9,7 +9,7 @@ Web components created using ES5 syntax.
 Clone the repository:
 
 ```bash
-$ git clone https://gitlab.com/vkorniyko/es5-syntax-webcomponents.git
+$ git clone https://gitlab.com/vkorniiko/es5-syntax-webcomponents.git
 $ cd es5-syntax-webcomponents/source
 ```
 

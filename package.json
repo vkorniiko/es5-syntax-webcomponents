@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/vkorniyko/es5-syntax-webcomponents.git"
+    "url": "git+ssh://git@gitlab.com/vkorniiko/es5-syntax-webcomponents.git"
   },
-  "author": "Volodymyr Korniyko",
+  "author": "Volodymyr Korniiko",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/vkorniyko/es5-syntax-webcomponents/issues"
+    "url": "https://gitlab.com/vkorniiko/es5-syntax-webcomponents/issues"
   },
-  "homepage": "https://gitlab.com/vkorniyko/es5-syntax-webcomponents#readme",
+  "homepage": "https://gitlab.com/vkorniiko/es5-syntax-webcomponents#readme",
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-eslint": "^21.0.0",
